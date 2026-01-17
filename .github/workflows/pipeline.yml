@@ -49,5 +49,5 @@ jobs:
         with:
           context: .
           push: true
-          # REPLACE 'yourusername' below with your actual Docker Hub username
-          tags: vaishnaviporandla/cicd-project:latest
+          # THE FIX IS BELOW: We use the secret variable directly
+          tags: ${{ secrets.DOCKER_USERNAME }}/cicd-project:latest
