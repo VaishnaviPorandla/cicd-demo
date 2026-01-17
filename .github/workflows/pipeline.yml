@@ -50,4 +50,5 @@ jobs:
           context: .
           push: true
           # THE FIX IS BELOW: We use the secret variable directly
-          tags: ${{ secrets.DOCKER_USERNAME }}/cicd-project:latest
+         # Use your username in ALL LOWERCASE. No capitals!
+          tags: vaishnaviporandla/cicd-project:latest
