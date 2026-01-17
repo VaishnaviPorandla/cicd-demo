@@ -50,4 +50,4 @@ jobs:
           context: .
           push: true
           # REPLACE 'yourusername' below with your actual Docker Hub username
-          tags: yourusername/cicd-project:latest
+          tags: vaishnaviporandla/cicd-project:latest
